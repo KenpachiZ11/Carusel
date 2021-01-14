@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carusel__container {
+    width: 600px;
+    margin: auto;
+    border: 5px solid black;
+    background: black;
+    overflow: hidden;
+}
+
+.carusel__img {
+    display: block;
+    width: 100%;
+}
+
+.carusel__slide {
+    display: flex;
+    height: 350px;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 50%;
+    font-size: 35px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    background: green;
+}
+
+.transformAnimation {
+    transition: .5s all ease-in-out;
+}
