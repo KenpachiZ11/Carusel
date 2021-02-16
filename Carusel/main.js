@@ -19,12 +19,17 @@ window.addEventListener('load', () =>{
 
     //btn
 
+
+    
     right.addEventListener('click', () => {
         if(counter >= images.length - 1) counter = - 1;
         slider.classList.add('transformAnimation')
         counter++;
         slider.style.transform = 'translateX(' + `${-stepSize * counter}px`;
     });
+
+
+
 
     left.addEventListener('click', () => {
         if(counter <= 0) counter = images.length;

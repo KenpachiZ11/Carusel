@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.sector {
+    width: 1300px;
+    margin: 0 auto;
+    height: 1000px;
+    background:grey;
+}
+
+.carusel {
+    display: flex;
+    padding-top: 100px;
+}
+
 .carusel__container {
     width: 600px;
     margin: auto;
@@ -23,13 +35,36 @@
 }
 
 .btn {
-    padding: 20px 30px;
-    border-radius: 50%;
+    padding: 20px 20px;
+    /* border-radius: 50%; */
     font-size: 35px;
     cursor: pointer;
     outline: none;
     border: 1px solid black;
-    background: green;
+    transition: .4s ease-out;
+    /* background: linear-gradient(45deg, #ffffff, #000000); */
+}
+
+.btn-right{
+    position: relative;
+    top: 40%;
+    right: 270px;
+    background: linear-gradient(315deg, #ffffff, #000000);
+}
+
+.btn-left{
+    position: relative;
+    top: 40%;
+    left: 270px;
+    background: linear-gradient(45deg, #ffffff, #000000);
+}
+
+.btn-right:hover {
+    transform: scale(1.2);
+}
+
+.btn-left:hover {
+    transform: scale(1.2);
 }
 
 .transformAnimation {

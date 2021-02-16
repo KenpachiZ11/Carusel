@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaruselUpdate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slideshow_container">
+        <div class="mySlides fade">
+            <div class="numberText">1/4</div>
+                <img src="img/1.jpg" alt="">
+                    <div class="text">Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">2/4</div>
+                <img src="img/2.jpg" alt="">
+                    <div class="text">Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">3/4</div>
+                <img src="img/3.jpg" alt="">
+                    <div class="text">Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">4/4</div>
+                <img src="img/4.jpg" alt="">
+                    <div class="text">Text</div>
+        </div>
+
+
+        
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+
+    </div>
+
+    <br>
+
+    <div class="block">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+        <span class="dot" onclick="currentSlides(4)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
